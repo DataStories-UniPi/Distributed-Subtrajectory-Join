@@ -46,8 +46,8 @@ The input parameters of DSJ are the following:
 * e_sp_method --> can be either 1 or 2 corresponding to the two alternative distance range methods available. 1 is for pure euclidean distance and 2 is for percentage of the quadtree cell that the point belongs to (refer to [1] for more details)
 * epsilon_sp --> is an integer number corresponding to the euclidean distance if e_sp_method = 1 and a a double precision number corresponding to the percentage of the quadtree cell if e_sp_method = 2
 * epsilon_t  --> is an integer number corresponding to ε<sub>t</sub> in seconds
-* dt is an integer number corresponding to δt in seconds
-* job_description = is a string corresponding to the name of the current run (this is helpfull when multiple runs with different parameters take place)
+* dt --> is an integer number corresponding to δt in seconds
+* job_description --> is a string corresponding to the name of the current run (this is helpfull when multiple runs with different parameters take place)
 
 Example --> yarn jar DSJ.jar "hdfs://localhost" ":9000" ":8050" /workspace_dir" "/input" "/join_output" nof_reducers e_sp_method epsilon_sp epsilon_t dt DSJ_run_1
 
