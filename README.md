@@ -52,8 +52,8 @@ The input parameters of DSJ are the following:
 Example --> yarn jar DSJ.jar "hdfs://localhost" ":9000" ":8050" /workspace_dir" "/input" "/join_output" nof_reducers e_sp_method epsilon_sp epsilon_t dt DSJ_run_1
 
 ## Acknowledgement
-
-This work was partially supported by the Greek Ministry of Development andInvestment, General Secretariat of Research and Technology, under the Operational Programme Competitiveness, Entrepreneurship and Innovation 2014-2020 (grant T1EDK-03268, i4Sea)
+This work was partially supported by the European Union’s Horizon 2020 research and innovation programme under grant agreements No 687591 (DATACRON), No 780754 (Track & Know) and No 777695 (MASTER).
+Furthermore, this work was partially supported by the Greek Ministry of Development andInvestment, General Secretariat of Research and Technology, under the Operational Programme Competitiveness, Entrepreneurship and Innovation 2014-2020 (grant T1EDK-03268, i4sea).
 
 ## References
 1. P. Tampakis, C. Doulkeridis, N. Pelekis, and Y. Theodoridis. “Distributed Subtrajectory Join on Massive Datasets”. In:ACM Trans. Spatial AlgorithmsSyst.6.2 (2019)
